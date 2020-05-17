@@ -1,0 +1,17 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; /* to make this attribute inheritable so than we can move declaration to body and all element
+    can inharit from that */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
