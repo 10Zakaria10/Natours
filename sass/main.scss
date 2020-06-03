@@ -14,6 +14,19 @@
 
 @import "pages/home";
 
+.xxx {
+    &:hover .xx:not(:hover){
+        background-color: blue;
+    }
+}
+.xx {
+  
+&:hover{
+    background-color: red;
+}
+
+}
+
 
 
 
